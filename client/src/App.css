@@ -1,0 +1,67 @@
+/* Base layout */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+}
+
+/* Flex to center content horizontally */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+}
+
+/* Top heading (optional styling) */
+.header {
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+  background-color: #f0f0ff;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Main container */
+.container {
+  width: 100%;
+  max-width: 700px;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+/* Section boxes */
+section {
+  background-color: #f5f5ff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 0.7rem;
+  margin-top: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Buttons */
+button {
+  margin-top: 1rem;
+  padding: 0.7rem 1.2rem;
+  background-color: #6c63ff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
